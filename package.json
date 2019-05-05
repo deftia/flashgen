@@ -1,6 +1,6 @@
 {
   "name": "flashgen",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Build apps on Firebase blazingly fast.",
   "main": "index.js",
   "scripts": {
