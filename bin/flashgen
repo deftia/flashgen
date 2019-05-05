@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+ 
+const program = require('commander');
+const fs = require('fs');
+ 
+program.command('init')
+  .action(() => {
+    fs.copyFileSync('templates/init.js', './index.js');
+  });
+
+program.parse(process.argv);
