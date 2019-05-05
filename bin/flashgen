@@ -2,10 +2,11 @@
  
 const program = require('commander');
 const fs = require('fs');
+const path = require('path');
  
 program.command('init')
   .action(() => {
-    fs.copyFileSync('templates/init.js', './index.js');
+    fs.copyFileSync(path.join(__dirname, '..', 'templates/init.js'), './index.js');
   });
 
 program.parse(process.argv);
