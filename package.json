@@ -1,6 +1,6 @@
 {
   "name": "flashgen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build apps on Firebase blazingly fast.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "realtime"
   ],
   "bin": {
-    "flashgen": "flashgen.js"
+    "flashgen": "bin/flashgen.js"
   },
   "author": "Abdulsattar",
   "license": "MIT",
